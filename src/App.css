@@ -1,0 +1,99 @@
+.bg-lucu {
+  background-image: url("/lucu1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  cursor: url("/kursorstr.png") 0 0, auto;
+}
+
+.instagram-btn:hover {
+  cursor: url("/kursorstraw.png") 0 0, pointer;
+}
+
+.straw-cursor {
+  cursor: url("/kursorstraw.png"), auto;
+}
+
+.container {
+  margin-left: 150px;
+  margin-top: 25px;
+  border-radius: 12px;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.993);
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.profile-text {
+  flex: 2;
+}
+
+.profile-text h1 {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 70px;
+  font-weight: normal;
+  margin-left: 10px;
+  color: #5e1111;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.profile-opening,
+.profile-motto {
+  font-family: "Bubblegum Sans";
+  color: #349123;
+}
+
+.profile-text p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.profile-text ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.profile-text li {
+  margin-bottom: 4px;
+}
+
+.instagram-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #7e1414;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.instagram-btn i {
+  margin-right: 8px;
+}
+
+.instagram-btn:hover {
+  background-color: #c13535;
+}
+
+.profile-photo img {
+  max-width: 400px;
+  margin-top: 290px;
+  margin-left: -100px;
+  margin-right: 100px;
+}
